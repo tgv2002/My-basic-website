@@ -1,0 +1,198 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script|Sofia|Ranchers|Piedra|Mystery+Quest|Luckiest+Guy|Permanent+Marker|Bungee+Shade|Chewy|Faster+One);
+
+tr,th,td{
+
+color: wheat;
+border-style: solid;
+border-color: white;
+font-size: xx-large;
+
+
+}
+
+.heading{
+
+font-family:"Luckiest Guy";
+color:yellow;
+
+
+}
+
+.intr{
+
+    float: right;
+    width:70%;
+    font-weight:700;
+}
+
+.me{
+
+float:right;
+width:72%;
+font-weight: 800;
+
+}
+
+
+th{
+
+color: rgb(146, 184, 57);
+font-family:"Bungee Shade";
+font-weight: bolder;
+font-size: xx-large;
+
+
+}
+ul{
+    margin-top: 0px;
+}
+
+.myself{
+
+
+background-image: url('../img/myPic.jpg');
+background-size: 100%;
+margin: 0px;
+padding: 20px;
+
+}
+
+tr{
+
+font-family:"Piedra";
+
+
+}
+body{
+    margin:0px;
+}
+
+#myimg1 {
+
+width: 70vh;
+height:auto;
+
+
+}
+
+
+#navbar{
+
+    background-color: sandybrown;
+    color: snow;
+    padding:4px;
+    margin: 0px;
+    width: 100%;
+    height:fit-content;
+    padding-top: 1px;
+    
+    }
+    
+    .navlist{
+    
+        padding:0;
+    list-style: none;
+    margin-top: 2px;
+    }
+
+.navlink{
+    display:inline;
+}
+
+.navlink{
+
+color:snow;
+text-decoration: none;
+font-family:"Permanent Marker";
+font-size: 29px;
+margin-top: 1px;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 0px;
+}
+
+.navlink:hover{
+    color:green;
+}
+
+.sticky{
+
+    position: fixed;
+    top:0;
+    width:100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+  }
+  #butt{
+
+    display: none;
+    position: fixed;
+    bottom:22px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:yellow;
+    color:black;
+    cursor:pointer;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    
+    }
+    
+    #butt:hover{
+    
+        background-color:red;
+    }
+
+
+.imgtext{
+
+font-family:"Faster One";
+font-size:xx-large;
+color:gold;
+margin:0px;
+padding-top: 10px;;
+
+}
+
+.showim{
+
+text-align: center;
+background-color:blueviolet;
+
+}
+
+.heading{
+
+padding-top: 200px;
+
+
+
+}
+
+@media ( max-width:952px){
+
+tr,th,td{
+
+    font-size: medium;
+
+}
+
+}
+
+@media ( max-width:352px){
+
+    tr,th,td{
+    
+        font-size: smaller;
+    
+    }
+    
+    }
+    .showim img{
+        max-width:100%;
+        height: auto;
+    }

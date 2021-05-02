@@ -1,0 +1,257 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script|Sofia|Ranchers|Piedra|Mystery+Quest|Luckiest+Guy|Permanent+Marker);
+
+
+
+#navbar{
+
+background-color: sandybrown;
+color: snow;
+padding:4px;
+margin: 0px;
+width: 100%;
+height: fit-content;
+padding-top: 1px;
+
+}
+
+.navlist{
+
+    padding:0;
+list-style: none;
+margin-top: 2px;
+}
+
+.test{
+
+width: 20%;
+color:white;
+font-size: xx-large;
+font-family: "Mystery Quest";
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navlink{
+    display:inline;
+}
+
+.navlink{
+
+color:snow;
+text-decoration: none;
+font-family:"Permanent Marker";
+font-size: 29px;
+margin-top: 1px;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 0px;
+}
+
+.navlink:hover{
+    color:green;
+}
+
+.sticky{
+
+    position: fixed;
+    top:0;
+    width:100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+.Intro{
+
+    background-image:url('https://simplefreethemes.com/wp-content/uploads/2017/04/Beautiful-Norway.jpg');
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 40px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.intro1{
+
+    font-family: 'Sofia';
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 4vh;
+    color: yellowgreen;
+
+}
+
+.sub{
+
+font-family: 'Piedra';
+font-weight: bold;
+font-style: italic;
+font-size:xx-large;
+color: gold;
+background-color: transparent;
+padding-left: 10px;
+
+}
+.footer{
+    text-align: center;
+    background-color: burlywood;
+    height: 70px;
+    width:100%;
+    bottom:0px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.logos{
+    margin:5px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+#butt{
+
+display: none;
+position: fixed;
+bottom:22px;
+/* right:10vw; */
+z-index: 99;
+border: none;
+outline: none;
+background-color:yellow;
+color:black;
+cursor:pointer;
+padding: 12px;
+border-radius: 12px;
+font-size: 16px;
+margin-right: 8px;
+
+}
+
+#butt:hover{
+
+    background-color:red;
+}
+
+.images.me{
+    width:33.33%;
+}
+
+.images img{
+    width:33.33%;
+}
+
+.visit{
+
+    text-align: center;
+background-color: violet;
+margin: 0px;
+
+}
+
+.blah{
+
+font-family:"Permanent Marker";
+font-size: xx-large;
+margin-top: 0px;
+padding-top: 8px;
+
+}
+
+#counter{
+
+background-color:blue;
+text-align: center;
+margin-right: 45vw;
+margin-left: 45vw;
+margin: 0px;
+font-size: xx-large;
+font-family:"Ranchers";
+color:gold;
+
+}
+
+.start{
+
+padding-top: 140px;
+
+
+}
+
+
+@media ( max-width:996px){
+
+    body{
+    
+        font-size: xx-small;
+        float: none;
+    
+    }
+
+/* #navbar {
+    height:9vh
+} */
+
+    
+    }
+    
+  
+    /* @media (max-width:594px){
+        #navbar{
+            height: 12vh;
+        } */
+    
+    
+.background{
+    background-image:url('https://simplefreethemes.com/wp-content/uploads/2017/04/Beautiful-Norway.jpg'); ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.meh{
+    font-family: 'Piedra';
+font-weight: bold;
+font-style: italic;
+font-size:xx-large;
+color:gold;
+background-color: transparent;
+}
+.testme{
+    color:white;
+width:50%;
+font-size: xx-large;
+font-family: "Mystery Quest";
+margin-bottom: 0px;
+}
+
+@media ( max-width:1176px){
+     
+      .background{
+          padding-top: 135px !important;
+      }
+   
+    
+    }
+
+    @media ( max-width:588px){
+     
+        .background{
+            padding-top: 190px !important;
+        }
+     
+      
+      }

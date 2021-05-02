@@ -1,0 +1,331 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script|Sofia|Ranchers|Piedra|Mystery+Quest|Luckiest+Guy|Permanent+Marker|Bungee+Shade|Chewy|Lemon);
+
+body{
+    margin:0px;
+    padding:0px;
+}
+.phone{
+
+background-color: coral;
+
+}
+
+.phdiv{
+
+display: flex;
+background-color: coral;
+margin: 0px;
+padding-top:200px;
+
+
+}
+.phone{
+
+width:30%;
+padding-bottom:20px;
+padding-top:10px;
+padding-left:110px;
+margin: 0px;
+
+}
+
+.phimg{
+    max-width: 100%;
+}
+.mailim{
+    max-width: 100%;
+}
+.adrimgx{
+    max-width: 100%;
+}
+
+.phtext{
+
+background-color: coral;
+width:70%;
+margin: 0px;
+padding-top: 40px;
+padding-left: 200px;
+}
+
+li{
+
+    list-style: none;
+}
+
+.ph{
+    color: floralwhite;
+    font-family: "Mystery Quest";
+    font-size: xx-large;
+}
+
+.no{
+
+    color: khaki;
+    font-family:"Lemon";
+    font-size: xx-large;
+
+}
+
+
+   .mail{
+
+    display: flex;
+    background-color: lawngreen;
+    margin: 0px;
+    
+    }
+
+    .mailtext{
+    
+
+        background-color:lawngreen;
+        width:70%;
+        margin: 0px;
+        padding-top: 40px;
+        padding-left: 100px;
+    
+    }
+
+.mailimg{
+
+
+    width:30%;
+    padding-bottom:20px;
+    padding-top:10px;
+
+    margin: 0px;
+    
+
+}    
+.phdiv{
+    padding-top:200px !important;
+}
+
+.m1{
+    color:blueviolet;
+    font-family: "Mystery Quest";
+    font-size: xx-large;
+}
+
+.mbg{
+
+    color:midnightblue;
+    font-family:"Lemon";
+    font-size: xx-large;
+
+}
+
+.adrimg{
+
+    background-color: cyan;
+    
+    }
+    
+    .address{
+    
+    display: flex;
+    background-color:cyan;
+    margin: 0px;
+    
+    }
+    .adrimg{
+    
+    width:30%;
+    padding-bottom:20px;
+    padding-top:10px;
+    padding-left:110px;
+    margin: 0px;
+    
+    }
+    
+   
+    
+    .adrtext{
+    
+    background-color:cyan;
+    width:70%;
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 200px;
+    }
+
+    .add{
+        color: orangered;
+        font-family: "Mystery Quest";
+        font-size: xx-large;
+    }
+    
+    .adr{
+    
+        color: red;
+        font-family:"Lemon";
+        font-size: xx-large;
+    
+    }
+
+
+#navbar{
+
+    background-color: sandybrown;
+    color: snow;
+    padding:4px;
+    margin: 0px;
+    width: 100%;
+    height:fit-content;
+    padding-top: 1px;
+    z-index:99;
+    
+    }
+    
+    .navlist{
+    
+        padding:0;
+    list-style: none;
+    margin-top: 2px;
+    }
+
+
+.navlink{
+    display:inline;
+}
+
+.navlink{
+
+color:snow;
+text-decoration: none;
+font-family:"Permanent Marker";
+font-size: 29px;
+margin-top: 1px;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 0px;
+}
+
+.navlink:hover{
+    color:green;
+}
+
+
+.sticky{
+
+    position: fixed;
+    top:0;
+    width:100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+  #butt{
+
+    display: none;
+    position: fixed;
+    bottom:22px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:yellow;
+    color:black;
+    cursor:pointer;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    
+    }
+    
+    #butt:hover{
+    
+        background-color:red;
+    }
+
+    .phdiv{
+
+
+        padding-top: 80px;
+
+    }
+
+
+
+
+
+    
+   @media ( max-width:1156px){
+    
+       
+    
+        .phone,.phtext,.mailtext,.mailimg,.adrimg,.adrtext, .add,.adr,.m1,.mbg,.ph,.no{
+            width:50%;
+            font-size: 1.0rem !important;
+        }
+        }
+        @media ( max-width:826px){
+    
+       
+    
+            .phone,.phtext,.mailtext,.mailimg,.adrimg,.adrtext, .add,.adr,.m1,.mbg,.ph,.no{
+                width:100%;
+                font-size: 1.0rem !important;
+                display:block !important;
+                width: 100%;
+              
+            }
+
+            .phdiv,.mail,.address{
+
+
+                display:block !important;
+            
+
+
+            }
+           .phdiv,.mail,.address{
+               
+            padding:4vw;
+            margin:0px;
+            overflow: hidden;
+           }
+           .phone,.phtext,.mailtext,.mailimg,.adrimg,.adrtext {
+               text-align: center;
+               padding: 2vw;
+               margin:2vw;
+           }
+           .img{
+               height:auto;
+               max-width:50%;
+               scale: 0.5,0.5;
+
+           } 
+           ul {
+         
+              padding-left:0px;
+              margin:1vw;
+              list-style-type: none;
+              padding-right: 2px;
+              position:relative;
+               
+
+
+              }
+              
+              .m1,.mbg{
+
+                font-size: 1vw;
+
+
+
+
+              }
+              .mailtext{
+
+                padding:1.2vw;
+                margin-right: 0px;
+
+
+              }
+        }
+    
+    
+    

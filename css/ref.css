@@ -1,0 +1,188 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script|Sofia|Ranchers|Piedra|Mystery+Quest|Luckiest+Guy|Permanent+Marker|Faster+One|Bungee+Shade);
+
+.descr{
+
+color:orange;
+margin:0px;
+padding: 20px;
+font-family:"Faster One";
+font-size: xx-large;
+padding-top: 250px;
+}
+
+.ref{
+
+    margin: 0px;
+
+}
+
+#mytable{
+
+border-style: solid;
+border-color: coral;
+color:white;
+margin-left: auto;
+margin-right: auto;
+font-size: xx-large;
+overflow-x: scroll;
+
+}
+
+.texx{
+
+color:yellow;
+font-family: "Permanent Marker";
+font-size: xx-large;
+
+}
+
+.enterr{
+text-align: center;
+margin: 0px;
+padding:50px;
+overflow-x: scroll;
+
+}
+
+.legendd{
+
+color:whitesmoke;
+font-family:"Mystery Quest" ;
+font-size:xx-large;
+margin: 0 auto;
+
+}
+
+body{
+
+    margin: 0px;
+    padding:50px;
+}
+
+body{
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIMkzHd2f88liHPENcsp04U8gZa_qTDJ6XEw_UFC5ao-ggKDhY');
+    background-size: 100% 100%;
+    background-size: cover;
+
+}
+
+
+#navbar{
+
+    background-color: sandybrown;
+    color: snow;
+    padding:4px;
+    margin: 0px;
+    width: 100%;
+    height:fit-content;
+    padding-top: 1px;
+    
+    }
+    
+    .navlist{
+    
+        padding:0;
+    list-style: none;
+    margin-top: 2px;
+    }
+
+.navlink{
+    display:inline;
+}
+
+.navlink{
+
+color:snow;
+text-decoration: none;
+font-family:"Permanent Marker";
+font-size: 29px;
+margin-top: 1px;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 0px;
+}
+
+.navlink:hover{
+    color:green;
+}
+
+.sticky{
+
+    position: fixed;
+    top:0;
+    width:100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+  }
+  #butt{
+
+    display: none;
+    position: fixed;
+    bottom:22px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:yellow;
+    color:black;
+    cursor:pointer;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    
+    }
+    
+    #butt:hover{
+    
+        background-color:red;
+    }
+
+
+tr,td{
+
+font-family: "Sofia";
+color: gold;
+border-style: solid;
+border-color:coral;
+
+}
+
+th{
+
+font-family: "Bungee Shade";
+border-style: solid;
+border-color:coral;
+
+}
+
+body{
+
+margin: 0px;
+padding:0px;
+
+
+
+}
+
+
+@media ( max-width:952px){
+
+    tr,th,td{
+    
+        font-size: medium;
+    
+    }
+    
+    }
+
+    @media ( max-width:352px){
+    
+        tr,th,td{
+        
+            font-size: smaller;
+        
+        }
+        
+        }
